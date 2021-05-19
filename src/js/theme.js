@@ -33,10 +33,6 @@ function savedTheme() {
 
   if (savedTheme == 'true') {
     body.classList.add(Theme.DARK);
-    body.classList.remove(Theme.LIGHT);
     themeSwitchToggle.checked = true;
-  } else {
-    body.classList.add(Theme.LIGHT);
-    body.classList.remove(Theme.DARK);
   }
 }
